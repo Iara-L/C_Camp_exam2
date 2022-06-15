@@ -1,0 +1,11 @@
+Етапи на компилация:
+preprocessing -> compilation -> assembly -> linking
+main.c -> cpp -> cc -> as |-> 
+                          |   linker
+file.c -> cpp -> cc -> as |->
+
+dynamic library - съществува като отделния файл извън executable файл.
+комбинира файловете по време на runtime.
+
+static library - не е отделен файл, а е част от него. Обединява кода с 
+библиотеките в двоичен файл по време на linking.
