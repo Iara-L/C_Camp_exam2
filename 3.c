@@ -43,7 +43,7 @@ void codedstr(char* str){
                 str[i] = ',';
                 break;
             default:
-                printf("Error\n");
+                fprintf(stderr, "Error\n");
             }
         }
         i++;
